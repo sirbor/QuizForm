@@ -1,0 +1,4 @@
+False
+True
+a. array_shift()
+a. break

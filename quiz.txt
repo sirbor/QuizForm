@@ -1,0 +1,16 @@
+1.Functions must contain parameters. 
+True 
+False
+2.Decision-making structures cannot be nested.
+True
+False 
+3.Which function removes the first element from the beginning of an array? 
+a. array_shift()
+b. array_unshift()
+c. array_push()
+d. array_pop()
+4.You can exit a switch statement using a(n) statement. 
+a. break
+b. end
+c. quit
+d. complete

@@ -1,0 +1,85 @@
+body {
+  background: #FFD9EB; /* Pinkish background color for the entire page */
+  font-family: Arial, sans-serif;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 192, 203, 0.3); /* Pinkish background for the quiz container */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Apply the blur effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  background-color: #FF69B4; /* Pinkish color for the submit button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  margin-top: 15px;
+  background-color: #FF69B4; /* Pinkish color for the submit button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 192, 203, 0.3); /* Pinkish background for the result container */
+  border-radius: 5px;
+  backdrop-filter: blur(5px); /* Apply the blur effect */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  text-align: center;
+
+}
+
+/* Result color classes */
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.result-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
